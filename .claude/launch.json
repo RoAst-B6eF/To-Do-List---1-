@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "todo-focus",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "todo-focus", "run", "dev"],
+      "port": 3000
+    }
+  ]
+}
