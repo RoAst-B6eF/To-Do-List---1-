@@ -53,8 +53,9 @@ export default function ProfilePage() {
           value={profileName}
           onChange={(e) => setProfileName(e.target.value)}
           placeholder="Ваше имя"
+          maxLength={40}
           style={{ width: `${Math.max(profileName.length || "Ваше имя".length, 2) + 1}ch` }}
-          className="h-auto max-w-[220px] border-none bg-transparent px-1 py-0 text-2xl font-semibold shadow-none focus-visible:ring-1"
+          className="h-auto border-none bg-transparent px-1 py-0 text-2xl font-semibold shadow-none focus-visible:ring-1"
         />
         <span>!</span>
       </div>
